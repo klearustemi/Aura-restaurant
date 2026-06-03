@@ -5,6 +5,19 @@ A clean, responsive landing page for Aura — a luxury fine dining restaurant. B
 ## Live Demo
 👉 https://beautiful-croissant-d70aae.netlify.app
 
+## 📸 Screenshots
+
+### 🏠 Home Section
+![Home](images/screenshots/home.png)
+
+### 🍽️ About Section
+![About](images/screenshots/about-us1.png)
+
+### 📋 Menu Section
+![Menu](images/screenshots/menu1.png)
+
+### 📅 Reservation Section
+![Reservation](images/screenshots/reservation.png)
 ## Tech Stack
 - HTML5
 - CSS3
