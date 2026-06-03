@@ -1,0 +1,138 @@
+﻿/* Responsive luxury adjustments */
+
+@media (max-width: 1199px) {
+  .top-banner {
+    background-attachment: scroll;
+  }
+  #home h1 {
+    max-width: 13ch;
+  }
+}
+
+@media (max-width: 991px) {
+  nav,
+  .navigation-wrap {
+    background: rgba(11,11,11,0.92);
+  }
+  /* Ensure collapsed panel can overflow and is visible when shown */
+  .navbar {
+    overflow: visible;
+  }
+  .navbar-collapse.collapse {
+    display: none;
+  }
+  .navbar-collapse.collapse.show {
+    display: block !important;
+    visibility: visible;
+    opacity: 1;
+  }
+  /* Make the collapsed menu visually distinct and positioned below the fixed nav */
+  .navbar-collapse {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    background: rgba(11,11,11,0.95);
+    backdrop-filter: blur(16px);
+    padding: 1.25rem 1rem;
+    border-radius: 0 0 18px 18px;
+    margin-top: 0.5rem;
+    z-index: 1150;
+  }
+  /* Stack nav items vertically on mobile */
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar-nav > li {
+    display: block;
+    width: 100%;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
+  .navbar-nav .nav-item {
+    padding: 0.55rem 0;
+  }
+  .top-banner {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  #home .row {
+    min-height: auto;
+  }
+  #home p {
+    max-width: 100%;
+  }
+  .menu .card .pt-3 {
+    padding: 1.75rem 1.6rem 2.2rem;
+  }
+  .reservation-card {
+    padding: 2rem;
+  }
+  .footer-section {
+    padding: 60px 0 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: clamp(2.8rem, 12vw, 4.2rem);
+  }
+  h2 {
+    font-size: 1.9rem;
+  }
+  .text-content,
+  .menu .text-content {
+    width: 100%;
+  }
+  .top-banner {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  #home .main-btn,
+  .white-btn,
+  .footer-social a,
+  .reservation-form .btn {
+    width: 100%;
+  }
+  .main-btn {
+    margin-bottom: 1rem;
+    justify-content: center;
+  }
+  .about-section .row,
+  .food-type .row,
+  .reservation-section .row,
+  .footer-section .row {
+    gap: 2rem;
+  }
+  .menu .card {
+    margin-bottom: 1.5rem;
+  }
+  .review-card {
+    padding: 2rem;
+  }
+  .footer-social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .navigation-wrap .navbar-brand {
+    font-size: 0.95rem;
+  }
+  nav .nav-link {
+    font-size: 0.88rem;
+  }
+  .reservation-card,
+  .menu .card,
+  .review-card {
+    border-radius: 14px;
+  }
+  .footer-section .footer-text {
+    max-width: 100%;
+  }
+}
