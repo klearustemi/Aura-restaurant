@@ -2,6 +2,9 @@
 
 A clean, responsive landing page for Aura — a luxury fine dining restaurant. Built with Bootstrap and custom CSS, this project demonstrates a modern, accessible, and mobile-friendly website layout suitable for promotional purposes and simple reservation interactions.
 
+## Live Demo
+👉 https://beautiful-croissant-d70aae.netlify.app
+
 ## Tech Stack
 - HTML5
 - CSS3
