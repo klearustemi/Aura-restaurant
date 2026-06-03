@@ -12,10 +12,10 @@ A clean, responsive landing page for Aura — a luxury fine dining restaurant. B
 
 ### 🍽️ About Section
 **Desktop View**
-![About 1](images/screenshots/aboutus-1.png)
+![About 1](images/screenshots/about-us1.png)
 
 **Second Layout / Scroll Effect**
-![About 2](images/screenshots/aboutus-2.png)
+![About 2](images/screenshots/about-us2.png)
 
 
 ### 📋 Menu Section
